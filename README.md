@@ -33,7 +33,12 @@ A full-stack application for managing and purchasing sweets.
 3. Frontend: 
    cd frontend
    npm install
-   npm start   
+   npm start
+
+##API Endpoints:
+Auth:
+  POST /api/auth/register – Register a new user
+  POST /api/auth/login – Login and get JWT token
 
 
 
