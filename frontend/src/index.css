@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav a, header nav button {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+header nav button:hover, header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.sweets-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sweet-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.sweet-card button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.sweet-form input, .sweet-form button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
